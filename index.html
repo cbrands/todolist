@@ -17,21 +17,18 @@
         </div>
         <input type="submit" value="Add Task" class="button" />
       </form>
-      <div class="row">
-        <div class="col s12">
-          <div id="main" class="card">
-            <div class="card-action">
-              <h5 id="task-title">Tasks</h5>
-              <div class="input-field col s12">
-                <input type="text" name="filter" id="filter" />
-                <label for="filter">Filter Tasks</label>
-              </div>
-              <ul class="collection"></ul>
-              <a href="#" class="clear-tasks">Clear Tasks</a>
-            </div>
-          </div>
+      <div class="tasks">
+        <h3 id="task-title">Tasks</h3>
+        <div class="input-field">
+          <input type="text" name="filter" id="filter" />
+          <label for="filter">Filter Tasks</label>
         </div>
+        <ul class="collection clearfix"></ul>
       </div>
+      <div class="clearfix topspace"></div>
+      <a href="#" class="clear-tasks">Clear Tasks</a>
+      <div class="clearfix"></div>
+      <div class="bottomspace"></div>
     </div>
     <script src="script.js"></script>
   </body>

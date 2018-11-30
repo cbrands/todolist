@@ -31,7 +31,7 @@ function storeTasksInLocalStorage(tasks) {
 
 function displayTask(task) {
   const li = document.createElement('li');
-  li.className = 'item';
+  li.className = 'item clearfix';
   li.appendChild(document.createTextNode(task));
   const link = document.createElement('a');
   link.className = 'delete-item secondary-content';
